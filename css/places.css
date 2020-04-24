@@ -1,0 +1,42 @@
+body
+{
+	/*height: 100vh;*/
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: lightblue;
+}
+#aboutus{
+	height: 100vw;
+	margin-bottom:25px;
+}
+
+.img-wrap{width:100%;}
+.img-wrap img{
+	width:100%;
+	padding:10px; 
+	border-radius:50%;
+	box-shadow: 0 0 10px #999999;
+}
+
+/*Resposnsive queries*/
+
+@media only screen and (max-width:1015px)
+{/*Laptop*/
+	.container{
+		margin-top: 100vw;
+	}
+}
+@media only screen and (max-width:414px)
+{/*mobile*/
+	.container{
+		margin-top:10px;
+	}
+}
+
+@media only screen and (max-width:375px)
+{/*mobile*/
+	.container{
+		margin-top:10vw;
+	}
+}

@@ -1,0 +1,30 @@
+body
+{
+	/*height: 100vh;*/
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: lightblue;
+	padding: 25px 0px 0px 30px;
+
+}
+
+#aboutus{
+	height: 100vw;
+	/*margin-bottom:25px;
+	
+	/*height: 100px;*/
+}
+
+
+/*#aboutus{
+	margin-bottom:25px;
+}*/
+
+.img-wrap{width:100%;}
+.img-wrap img{
+	width:100%;
+	padding:10px; 
+	border-radius:50%;
+	box-shadow: 0 0 10px #999999;
+}

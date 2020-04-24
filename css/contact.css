@@ -1,0 +1,50 @@
+body
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color:lightblue;
+}
+#aboutus{
+	margin-bottom:25px;
+}
+/*.tb1{
+  border: 5px solid red;
+  border-collapse: collapse;  
+  border-collapse: collapse;
+}*/
+.img-wrap{width:100%;}
+.img-wrap img{
+	width:100%;
+	padding:10px; 
+	border-radius:50%;
+	box-shadow: 0 0 10px #999999;
+}
+
+/*Resposnsive queries*/
+
+@media only screen and (max-width:1015px)
+{/*Laptop*/
+	.container{
+		margin-top: 100vw;
+	}
+}
+@media only screen and (max-width:414px)
+{/*mobile*/
+	.container{
+		margin-top:10vw;
+	}
+	.container table{
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width:375px)
+{/*mobile*/
+	.container{
+		margin-top:10vw;
+	}
+	.container table{
+		margin-bottom: 25px;
+	}
+}

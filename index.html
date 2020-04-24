@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.kenaddams.com</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body> 
+	
+	<header>
+		<nav>		
+			<div class="main"> 
+
+			<ul class="main-nav" id="check-class">
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+				<li><a href="places.html">Visited</a></li>
+			</ul> 
+			<a href="#" class="mobile-icon" onclick="slideshow()">
+				<i class="fa fa-bars"></i>
+			</a>
+			</div>
+		</nav>
+	
+	</div>
+		<div class="title">	
+			<h1><span class="colorchange">Ken Addams</span></h1><br>
+			<h6>-Data Scientist,Blogger,Traveller</h6>
+
+		</div>
+</header>
+	
+	<script type="text/javascript">
+		function slideshow()
+		{
+			var x = document.getElementById('check-class');
+			if(x.className === "main-nav")
+			{  
+				 x.className += " responsive";
+			}
+			else
+			{
+				x.className="main-nav";
+			}
+		}
+	</script>
+</body>
+</html>
